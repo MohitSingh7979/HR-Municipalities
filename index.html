@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>About Us - MC Jhajjar</title>
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;500;700;900&amp;display=swap"
+        rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+    <script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary": "#003366",
+                        "secondary": "#F5F5F5",
+                        "accent": "#FFA500",
+                        "background-light": "#f6f7f8",
+                        "background-dark": "#101922",
+                    },
+                    fontFamily: {
+                        "display": ["Public Sans", "sans-serif"]
+                    },
+                    borderRadius: {
+                        "DEFAULT": "0.25rem",
+                        "lg": "0.5rem",
+                        "xl": "0.75rem",
+                        "full": "9999px"
+                    },
+                },
+            },
+        }
+    </script>
+</head>
+
+<body class="bg-background-light dark:bg-background-dark font-display text-gray-800 dark:text-gray-200">
+    <div class="relative flex h-auto min-h-screen w-full flex-col group/design-root overflow-x-hidden">
+        <div class="layout-container flex h-full grow flex-col">
+            <header class="sticky top-0 z-50 bg-background-light dark:bg-background-dark/80 backdrop-blur-sm shadow-sm">
+                <div class="px-4 md:px-10 lg:px-20 mx-auto max-w-7xl">
+                    <div
+                        class="flex items-center justify-between whitespace-nowrap border-b border-solid border-gray-200 dark:border-gray-700 py-3">
+                        <div class="flex items-center gap-4 text-primary dark:text-white">
+                            <div class="size-8">
+                                <svg fill="none" viewbox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M39.5563 34.1455V13.8546C39.5563 15.708 36.8773 17.3437 32.7927 18.3189C30.2914 18.916 27.263 19.2655 24 19.2655C20.737 19.2655 17.7086 18.916 15.2073 18.3189C11.1227 17.3437 8.44365 15.708 8.44365 13.8546V34.1455C8.44365 35.9988 11.1227 37.6346 15.2073 38.6098C17.7086 39.2069 20.737 39.5564 24 39.5564C27.263 39.5564 30.2914 39.2069 32.7927 38.6098C36.8773 37.6346 39.5563 35.9988 39.5563 34.1455Z"
+                                        fill="currentColor"></path>
+                                    <path clip-rule="evenodd"
+                                        d="M10.4485 13.8519C10.4749 13.9271 10.6203 14.246 11.379 14.7361C12.298 15.3298 13.7492 15.9145 15.6717 16.3735C18.0007 16.9296 20.8712 17.2655 24 17.2655C27.1288 17.2655 29.9993 16.9296 32.3283 16.3735C34.2508 15.9145 35.702 15.3298 36.621 14.7361C37.3796 14.246 37.5251 13.9271 37.5515 13.8519C37.5287 13.7876 37.4333 13.5973 37.0635 13.2931C36.5266 12.8516 35.6288 12.3647 34.343 11.9175C31.79 11.0295 28.1333 10.4437 24 10.4437C19.8667 10.4437 16.2099 11.0295 13.657 11.9175C12.3712 12.3647 11.4734 12.8516 10.9365 13.2931C10.5667 13.5973 10.4713 13.7876 10.4485 13.8519ZM37.5563 18.7877C36.3176 19.3925 34.8502 19.8839 33.2571 20.2642C30.5836 20.9025 27.3973 21.2655 24 21.2655C20.6027 21.2655 17.4164 20.9025 14.7429 20.2642C13.1498 19.8839 11.6824 19.3925 10.4436 18.7877V34.1275C10.4515 34.1545 10.5427 34.4867 11.379 35.027C12.298 35.6207 13.7492 36.2054 15.6717 36.6644C18.0007 37.2205 20.8712 37.5564 24 37.5564C27.1288 37.5564 29.9993 37.2205 32.3283 36.6644C34.2508 36.2054 35.702 35.6207 36.621 35.027C37.4573 34.4867 37.5485 34.1546 37.5563 34.1275V18.7877ZM41.5563 13.8546V34.1455C41.5563 36.1078 40.158 37.5042 38.7915 38.3869C37.3498 39.3182 35.4192 40.0389 33.2571 40.5551C30.5836 41.1934 27.3973 41.5564 24 41.5564C20.6027 41.5564 17.4164 41.1934 14.7429 40.5551C12.5808 40.0389 10.6502 39.3182 9.20848 38.3869C7.84205 37.5042 6.44365 36.1078 6.44365 34.1455L6.44365 13.8546C6.44365 12.2684 7.37223 11.0454 8.39581 10.2036C9.43325 9.3505 10.8137 8.67141 12.343 8.13948C15.4203 7.06909 19.5418 6.44366 24 6.44366C28.4582 6.44366 32.5797 7.06909 35.657 8.13948C37.1863 8.67141 38.5667 9.3505 39.6042 10.2036C40.6278 11.0454 41.5563 12.2684 41.5563 13.8546Z"
+                                        fill="currentColor" fill-rule="evenodd"></path>
+                                </svg>
+                            </div>
+                            <h2
+                                class="text-primary dark:text-white text-lg font-bold leading-tight tracking-[-0.015em]">
+                                MC Jhajjar</h2>
+                        </div>
+                        <nav class="hidden md:flex flex-1 justify-end gap-8">
+                            <a class="text-gray-700 dark:text-gray-300 hover:text-primary dark:hover:text-white text-sm font-medium leading-normal"
+                                href="#">Home</a>
+                            <a class="text-primary dark:text-white text-sm font-medium leading-normal" href="#">About
+                                Us</a>
+                            <a class="text-gray-700 dark:text-gray-300 hover:text-primary dark:hover:text-white text-sm font-medium leading-normal"
+                                href="#">Departments</a>
+                            <a class="text-gray-700 dark:text-gray-300 hover:text-primary dark:hover:text-white text-sm font-medium leading-normal"
+                                href="#">Services</a>
+                            <a class="text-gray-700 dark:text-gray-300 hover:text-primary dark:hover:text-white text-sm font-medium leading-normal"
+                                href="#">Tenders</a>
+                            <a class="text-gray-700 dark:text-gray-300 hover:text-primary dark:hover:text-white text-sm font-medium leading-normal"
+                                href="#">Contact Us</a>
+                        </nav>
+                        <button
+                            class="md:hidden p-2 rounded-md text-gray-700 dark:text-gray-300 hover:bg-gray-200 dark:hover:bg-gray-700">
+                            <span class="material-symbols-outlined">menu</span>
+                        </button>
+                    </div>
+                </div>
+            </header>
+            <main class="flex-1">
+                <div class="relative">
+                    <div class="flex min-h-[480px] flex-col gap-6 bg-cover bg-center bg-no-repeat items-center justify-center p-4"
+                        data-alt="A panoramic view of a key landmark in Jhajjar city."
+                        style='background-image: linear-gradient(rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.6) 100%), url("https://scontent.fdel79-1.fna.fbcdn.net/v/t39.30808-6/472025602_993540099476734_2009671681096592677_n.jpg?stp=dst-jpg_s960x960_tt6&_nc_cat=104&ccb=1-7&_nc_sid=cc71e4&_nc_ohc=3p3QqBNSgsYQ7kNvwG0r1o9&_nc_oc=AdmS8xelEuKfqyvpHqaLxNC9vAhM3hk9P5iKFUp0RKxj1y-JIfAt9s0TL11xX4GLH-s&_nc_zt=23&_nc_ht=scontent.fdel79-1.fna&_nc_gid=z_QLs2XZw66-f_HaHODd4Q&oh=00_AfjsPMhJyp322iWcJj__-4xvHpwTt5rl9J_xKzMGvhUasQ&oe=690F3EEA");'>
+                        <div class="flex flex-col gap-2 text-center text-white">
+                            <h1 class="text-4xl font-black leading-tight tracking-tight md:text-5xl">Welcome to
+                                Municipal Council Jhajjar</h1>
+                            <h2 class="text-lg font-normal leading-normal md:text-xl">Your partner in progress and
+                                development.</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="px-4 md:px-10 lg:px-20 py-12 mx-auto max-w-7xl">
+                    <section class="mb-16">
+                        <h2 class="text-primary dark:text-white text-3xl font-bold leading-tight tracking-tight mb-4">
+                            Our Profile</h2>
+                        <p class="text-gray-700 dark:text-gray-300 text-base font-normal leading-relaxed">
+                            A brief introduction to the MC Jhajjar, its history, and its geographical scope. This
+                            section will provide an overview of the municipality's role in the development and
+                            administration of the city. We are committed to fostering a clean, safe, and prosperous
+                            environment for all citizens of Jhajjar.
+                        </p>
+                    </section>
+                    <section class="mb-16 bg-secondary dark:bg-background-dark p-8 rounded-lg">
+                        <div class="grid md:grid-cols-2 gap-12 items-center">
+                            <div>
+                                <h3 class="flex items-center text-primary dark:text-white text-2xl font-bold mb-3">
+                                    <span class="material-symbols-outlined text-accent mr-3">visibility</span> Our
+                                    Vision
+                                </h3>
+                                <p class="text-gray-700 dark:text-gray-300">To transform Jhajjar into a model city that
+                                    is sustainable, inclusive, and economically vibrant, offering a high quality of life
+                                    to all its residents.</p>
+                            </div>
+                            <div>
+                                <h3 class="flex items-center text-primary dark:text-white text-2xl font-bold mb-3">
+                                    <span class="material-symbols-outlined text-accent mr-3">rocket_launch</span> Our
+                                    Mission
+                                </h3>
+                                <p class="text-gray-700 dark:text-gray-300">To provide efficient, transparent, and
+                                    citizen-centric services through modern technology and community participation,
+                                    ensuring planned urban development and environmental sustainability.</p>
+                            </div>
+                        </div>
+                    </section>
+                    <section class="mb-16">
+                        <h2
+                            class="text-primary dark:text-white text-3xl font-bold leading-tight tracking-tight mb-6 text-center">
+                            Municipal Functions</h2>
+                        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+                            <div class="flex items-start gap-4">
+                                <div class="bg-primary/20 text-primary p-3 rounded-full">
+                                    <span class="material-symbols-outlined">cleaning_services</span>
+                                </div>
+                                <div>
+                                    <h4 class="font-bold text-lg text-gray-800 dark:text-gray-200">Sanitation</h4>
+                                    <p class="text-gray-600 dark:text-gray-400">Ensuring a clean and healthy city
+                                        environment.</p>
+                                </div>
+                            </div>
+                            <div class="flex items-start gap-4">
+                                <div class="bg-primary/20 text-primary p-3 rounded-full">
+                                    <span class="material-symbols-outlined">water_drop</span>
+                                </div>
+                                <div>
+                                    <h4 class="font-bold text-lg text-gray-800 dark:text-gray-200">Water Supply</h4>
+                                    <p class="text-gray-600 dark:text-gray-400">Providing safe and reliable drinking
+                                        water.</p>
+                                </div>
+                            </div>
+                            <div class="flex items-start gap-4">
+                                <div class="bg-primary/20 text-primary p-3 rounded-full">
+                                    <span class="material-symbols-outlined">real_estate_agent</span>
+                                </div>
+                                <div>
+                                    <h4 class="font-bold text-lg text-gray-800 dark:text-gray-200">Urban Planning</h4>
+                                    <p class="text-gray-600 dark:text-gray-400">Sustainable development and land use
+                                        management.</p>
+                                </div>
+                            </div>
+                            <div class="flex items-start gap-4">
+                                <div class="bg-primary/20 text-primary p-3 rounded-full">
+                                    <span class="material-symbols-outlined">public</span>
+                                </div>
+                                <div>
+                                    <h4 class="font-bold text-lg text-gray-800 dark:text-gray-200">Public Works</h4>
+                                    <p class="text-gray-600 dark:text-gray-400">Construction and maintenance of public
+                                        infrastructure.</p>
+                                </div>
+                            </div>
+                            <div class="flex items-start gap-4">
+                                <div class="bg-primary/20 text-primary p-3 rounded-full">
+                                    <span class="material-symbols-outlined">health_and_safety</span>
+                                </div>
+                                <div>
+                                    <h4 class="font-bold text-lg text-gray-800 dark:text-gray-200">Health Services</h4>
+                                    <p class="text-gray-600 dark:text-gray-400">Promoting public health and wellness
+                                        initiatives.</p>
+                                </div>
+                            </div>
+                            <div class="flex items-start gap-4">
+                                <div class="bg-primary/20 text-primary p-3 rounded-full">
+                                    <span class="material-symbols-outlined">school</span>
+                                </div>
+                                <div>
+                                    <h4 class="font-bold text-lg text-gray-800 dark:text-gray-200">Education</h4>
+                                    <p class="text-gray-600 dark:text-gray-400">Managing municipal schools and
+                                        educational facilities.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <section class="mb-16">
+                        <h2
+                            class="text-primary dark:text-white text-3xl font-bold leading-tight tracking-tight mb-8 text-center">
+                            Elected Representatives Head</h2>
+                        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
+                            <div
+                                class="bg-white dark:bg-gray-800 rounded-lg shadow-md p-6 text-center hover:shadow-xl hover:-translate-y-1 transition-transform duration-300">
+                                <img class="w-24 h-24 rounded-full mx-auto mb-4 object-cover"
+                                    data-alt="Photo of the Mayor"
+                                    src="https://staticimg.amarujala.com/assets/images/2022/06/22/jhajjar-municipal-election-results-jhajjar-municipal-election-results-2022-jile-singh-saini-in-jhajjar-haryana-municipal-election-2022-haryana-municipal-election-results_1655888532.jpeg?w=674&dpr=1.0&q=80" />
+                                <h4 class="font-bold text-xl text-gray-800 dark:text-white">Name</h4>
+                                <p class="text-accent font-semibold">President</p>
+                            </div>
+                            <div
+                                class="bg-white dark:bg-gray-800 rounded-lg shadow-md p-6 text-center hover:shadow-xl hover:-translate-y-1 transition-transform duration-300">
+                                <img class="w-24 h-24 rounded-full mx-auto mb-4 object-cover"
+                                    data-alt="Photo of the Deputy Mayor"
+                                    src="https://e7.pngegg.com/pngimages/516/431/png-clipart-female-profile-avatar-illustration-computer-icons-female-user-profile-female-girl-wife-woman-icon-miscellaneous-logo.png" />
+                                    
+                                <h4 class="font-bold text-xl text-gray-800 dark:text-white">Name</h4>
+                                <p class="text-accent font-semibold">Vice-President</p>
+                            </div>
+                        </div>
+                    </section>
+                    <section class="mb-16">
+                        <h2
+                            class="text-primary dark:text-white text-3xl font-bold leading-tight tracking-tight mb-8 text-center">
+                            Administrative Structure</h2>
+                        <div class="relative flex flex-col items-center">
+                            <div
+                                class="w-full max-w-sm bg-secondary dark:bg-gray-800 p-4 rounded-lg shadow-lg mb-8 text-center">
+                                <h4 class="font-bold text-lg text-primary dark:text-white">District Municipal Commissioner</h4>
+                                <p class="text-sm text-gray-600 dark:text-gray-400">Name</p>
+                            </div>
+                            <div class="absolute top-20 h-8 w-px bg-gray-400 dark:bg-gray-600"></div>
+                            <div class="w-full flex justify-center gap-8 md:gap-16 pt-16 relative">
+                                <div
+                                    class="absolute top-8 left-1/2 -translate-x-1/2 w-1/2 md:w-2/3 h-px bg-gray-400 dark:bg-gray-600">
+                                </div>
+                                <div class="relative flex flex-col items-center">
+                                    <div class="absolute -top-8 h-8 w-px bg-gray-400 dark:bg-gray-600"></div>
+                                    <div class="bg-secondary dark:bg-gray-800 p-4 rounded-lg shadow-lg text-center">
+                                        <h4 class="font-bold text-md text-primary dark:text-white">Municipal Council, Bahadurgarh
+                                        </h4>
+                                    </div>
+                                </div>
+<div class="relative flex flex-col items-center">
+                                    <div class="absolute -top-8 h-8 w-px bg-gray-400 dark:bg-gray-600"></div>
+                                    <div class="bg-secondary dark:bg-gray-800 p-4 rounded-lg shadow-lg text-center">
+                                        <h4 class="font-bold text-md text-primary dark:text-white">Municipal Council, Jhajjar
+                                        </h4>
+                                    </div>
+                                </div>
+<div class="relative flex flex-col items-center">
+                                    <div class="absolute -top-8 h-8 w-px bg-gray-400 dark:bg-gray-600"></div>
+                                    <div class="bg-secondary dark:bg-gray-800 p-4 rounded-lg shadow-lg text-center">
+                                        <h4 class="font-bold text-md text-primary dark:text-white">Municipal Committee, Beri
+                                        </h4>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <section>
+                        <h2
+                            class="text-primary dark:text-white text-3xl font-bold leading-tight tracking-tight mb-6 text-center">
+                            Governing Documents</h2>
+                        <div class="flex flex-col md:flex-row justify-center items-center gap-6">
+                            <a class="flex items-center gap-3 bg-accent hover:bg-accent/90 text-white font-bold py-3 px-6 rounded-lg transition-colors duration-300"
+                                href="#">
+                                <span class="material-symbols-outlined">download</span>
+                                <span>Haryana Municipal Corporation Act</span>
+                            </a>
+                            <a class="flex items-center gap-3 bg-accent hover:bg-accent/90 text-white font-bold py-3 px-6 rounded-lg transition-colors duration-300"
+                                href="#">
+                                <span class="material-symbols-outlined">download</span>
+                                <span>Rules of Conduct for Members</span>
+                            </a>
+                        </div>
+                    </section>
+                </div>
+            </main>
+            <footer class="bg-gray-800 dark:bg-black text-white">
+                <div class="px-4 md:px-10 lg:px-20 py-8 mx-auto max-w-7xl">
+                    <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                        <div>
+                            <h3 class="text-lg font-bold mb-4">MC Jhajjar</h3>
+                            <p class="text-gray-400">Municipal Council Office,<br />Jhajjar, Haryana - 124103</p>
+                        </div>
+                        <div>
+                            <h3 class="text-lg font-bold mb-4">Quick Links</h3>
+                            <ul class="space-y-2">
+                                <li><a class="text-gray-400 hover:text-white" href="#">e-Services</a></li>
+                                <li><a class="text-gray-400 hover:text-white" href="#">Grievance Redressal</a></li>
+                                <li><a class="text-gray-400 hover:text-white" href="#">News &amp; Updates</a></li>
+                                <li><a class="text-gray-400 hover:text-white" href="#">FAQs</a></li>
+                            </ul>
+                        </div>
+                        <div>
+                            <h3 class="text-lg font-bold mb-4">Connect With Us</h3>
+                            <div class="flex space-x-4">
+                                <a class="text-gray-400 hover:text-white" href="#"><svg aria-hidden="true"
+                                        class="w-6 h-6" fill="currentColor" viewbox="0 0 24 24">
+                                        <path clip-rule="evenodd"
+                                            d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.988C18.343 21.128 22 16.991 22 12z"
+                                            fill-rule="evenodd"></path>
+                                    </svg></a>
+                                <a class="text-gray-400 hover:text-white" href="#"><svg aria-hidden="true"
+                                        class="w-6 h-6" fill="currentColor" viewbox="0 0 24 24">
+                                        <path
+                                            d="M8.29 20.251c7.547 0 11.675-6.253 11.675-11.675 0-.178 0-.355-.012-.53A8.348 8.348 0 0022 5.92a8.19 8.19 0 01-2.357.646 4.118 4.118 0 001.804-2.27 8.224 8.224 0 01-2.605.996 4.107 4.107 0 00-6.993 3.743 11.65 11.65 0 01-8.457-4.287 4.106 4.106 0 001.27 5.477A4.072 4.072 0 012.8 9.71v.052a4.105 4.105 0 003.292 4.022 4.095 4.095 0 01-1.853.07 4.108 4.108 0 003.834 2.85A8.233 8.233 0 012 18.407a11.616 11.616 0 006.29 1.84">
+                                        </path>
+                                    </svg></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mt-8 pt-8 border-t border-gray-700 text-center text-gray-500 text-sm">
+                        <p>© 2024 Municipal Council Jhajjar. All Rights Reserved.</p>
+                    </div>
+                </div>
+            </footer>
+        </div>
+    </div>
+</body>
+
+</html>
